@@ -4,29 +4,47 @@ import HeroSlider from "../components/HeroSlider";
 import DistrictSection from "../components/DistrictSection";
 import Footer from "../components/Footer";
 
-const districts = [
-  { name: "Dhanusha", image: "https://images.unsplash.com/photo-1585559602708-08a9c02a5a88" },
-  { name: "Bara", image: "https://images.unsplash.com/photo-1600679472829-3044539ce8c2" },
-  { name: "Parsa", image: "https://images.unsplash.com/photo-1604937455091-efc1d3b74b23" }
-];
+//districts images
+import dhanusha from "../assets/images/districts/dhanusha.jpg";
+import bara from "../assets/images/districts/bara.jpg";
+import parsa from "../assets/images/districts/parsa.jpg";
+import saptari from "../assets/images/districts/saptari.png";
+import mohatari from "../assets/images/districts/mohatari.jpg";
+import sarlahi from "../assets/images/districts/sarlahi.jpg";
+import sunsari from "../assets/images/districts/sunsari.jpg";
+import siraha from "../assets/images/districts/siraha.jpg";
 
 const Home = () => {
+  //districts data and images for districtSection to show district image cards
+  const districts = [
+    { name: "Dhanusha", image: dhanusha },
+    { name: "Bara", image: bara },
+    { name: "Parsa", image: parsa },
+    { name: "Saptari", image: saptari },
+    { name: "Siraha", image: siraha },
+    { name: "Sarlahi", image: sarlahi },
+    { name: "Sunsari", image: sunsari },
+    { name: "Mohatari", image: mohatari },
+  ];
   return (
     <>
       <Navbar />
       <HeroSlider />
 
-      <section className="bg-gray-100 py-16">
-        <div className="max-w-7xl mx-auto px-6">
-          <h2 className="text-3xl font-bold text-center mb-12 text-gray-800">
-            Districts of Madhesh Pradesh
-          </h2>
+      {/* District Section */}
+      <section className="px-6 md:px-12 py-12 bg-gray-100">
+        <h2 className="text-3xl font-bold text-center mb-10 text-gray-800">
+          Explore Districts of Madhesh
+        </h2>
 
-          <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-3">
-            {districts.map((d, i) => (
-              <DistrictSection key={i} {...d} />
-            ))}
-          </div>
+        <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3">
+          {districts.map((district, index) => (
+            <DistrictSection
+              key={index}
+              name={district.name}
+              image={district.image}
+            />
+          ))}
         </div>
       </section>
 
@@ -36,4 +54,3 @@ const Home = () => {
 };
 
 export default Home;
-
