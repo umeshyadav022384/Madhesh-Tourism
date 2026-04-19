@@ -31,7 +31,7 @@ const Home = () => {
       <Navbar />
       <HeroSlider />
 
-      {/* District Section */}
+      {/* District Section| */}
       <section className="px-6 md:px-12 py-12 bg-gray-100">
         <h2 className="text-3xl font-bold text-center mb-10 text-gray-800">
           Explore Districts of Madhesh
