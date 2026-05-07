@@ -1,0 +1,128 @@
+{
+  "siraha": [
+    {
+      "name": "Madhesh Bhojanalaya",
+      "location": "Siraha Bazar",
+      "cuisine": "Local Nepali",
+      "price_range": "NPR 200-500",
+      "rating": 4.5,
+      "best_for": "Traditional Maithili food, Authentic local experience",
+      "opening_hours": "8:00 AM - 9:00 PM",
+      "features": ["Local cuisine", "Family seating", "Affordable"],
+      "must_try": "Dal Bhat, Maithili Thali, Local vegetables"
+    },
+    {
+      "name": "Saffron Restaurant",
+      "location": "Siraha",
+      "cuisine": "Multi-cuisine",
+      "price_range": "NPR 300-800",
+      "rating": 4.3,
+      "best_for": "Variety of cuisines, Family dining",
+      "opening_hours": "10:00 AM - 10:00 PM",
+      "features": ["Chinese", "Continental", "Indian", "Nepali"],
+      "must_try": "Chowmein, Momo, Paneer dishes"
+    },
+    {
+      "name": "Lahan Fast Food",
+      "location": "Lahan Bazar",
+      "cuisine": "Fast Food",
+      "price_range": "NPR 100-300",
+      "rating": 4.0,
+      "best_for": "Quick bites, Snacks",
+      "opening_hours": "11:00 AM - 9:00 PM",
+      "features": ["Fast service", "Takeaway available", "Budget friendly"],
+      "must_try": "Burgers, Fries, Spring rolls"
+    }
+  ],
+  "dhanusha": [
+    {
+      "name": "Janakpur Dhaba",
+      "location": "Janakpur",
+      "cuisine": "Local Maithili",
+      "price_range": "NPR 150-400",
+      "rating": 4.4,
+      "best_for": "Authentic Maithili food",
+      "opening_hours": "7:00 AM - 9:00 PM",
+      "features": ["Local cuisine", "Vegetarian options"],
+      "must_try": "Maithili Thali, Chana Masala"
+    }
+  ],
+  "bara": [
+    {
+      "name": "Kalaiya Bhojanalaya",
+      "location": "Kalaiya",
+      "cuisine": "Local Nepali",
+      "price_range": "NPR 150-350",
+      "rating": 4.2,
+      "best_for": "Budget local food",
+      "opening_hours": "8:00 AM - 8:00 PM",
+      "features": ["Local cuisine", "Quick service"],
+      "must_try": "Dal Bhat, Seasonal vegetables"
+    }
+  ],
+  "parsa": [
+    {
+      "name": "Birgunj Food Corner",
+      "location": "Birgunj",
+      "cuisine": "Multi-cuisine",
+      "price_range": "NPR 200-600",
+      "rating": 4.3,
+      "best_for": "Variety of food options",
+      "opening_hours": "9:00 AM - 10:00 PM",
+      "features": ["Indian", "Chinese", "Continental"],
+      "must_try": "Chicken Curry, Naan, Biryani"
+    }
+  ],
+  "saptari": [
+    {
+      "name": "Rajbiraj Food Plaza",
+      "location": "Rajbiraj",
+      "cuisine": "Local Nepali",
+      "price_range": "NPR 150-400",
+      "rating": 4.1,
+      "best_for": "Local food experience",
+      "opening_hours": "8:00 AM - 9:00 PM",
+      "features": ["Local cuisine", "Family seating"],
+      "must_try": "Local Thali, Fish curry"
+    }
+  ],
+  "sarlahi": [
+    {
+      "name": "Malangwa Hotel",
+      "location": "Malangwa",
+      "cuisine": "Local Nepali",
+      "price_range": "NPR 150-350",
+      "rating": 4.0,
+      "best_for": "Budget dining",
+      "opening_hours": "8:00 AM - 8:00 PM",
+      "features": ["Local cuisine", "Quick service"],
+      "must_try": "Dal Bhat, Vegetables"
+    }
+  ],
+  "sunsari": [
+    {
+      "name": "Dharan Food Hut",
+      "location": "Dharan",
+      "cuisine": "Multi-cuisine",
+      "price_range": "NPR 200-700",
+      "rating": 4.4,
+      "best_for": "Variety of cuisines",
+      "opening_hours": "9:00 AM - 10:00 PM",
+      "features": ["Chinese", "Indian", "Continental"],
+      "must_try": "Momo, Chowmein, Thukpa"
+    }
+  ],
+  "mahottari": [
+    {
+      "name": "Jaleshwar Bhojanalaya",
+      "location": "Jaleshwar",
+      "cuisine": "Local Nepali",
+      "price_range": "NPR 150-350",
+      "rating": 4.0,
+      "best_for": "Authentic local food",
+      "opening_hours": "8:00 AM - 8:00 PM",
+      "features": ["Local cuisine", "Affordable"],
+      "must_try": "Local Thali"
+    }
+  ]
+}

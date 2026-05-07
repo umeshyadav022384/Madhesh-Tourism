@@ -32,7 +32,7 @@ const Home = () => {
       <HeroSlider />
 
       {/* District Section| */}
-      <section className="px-6 md:px-12 py-12 bg-gray-100">
+      <section className="px-6 md:px-12 py-12" style={{ backgroundColor: "#c4cac9"}}>
         <h2 className="text-3xl font-bold text-center mb-10 text-gray-800">
           Explore Districts of Madhesh
         </h2>
@@ -47,7 +47,6 @@ const Home = () => {
           ))}
         </div>
       </section>
-
       <Footer />
     </>
   );

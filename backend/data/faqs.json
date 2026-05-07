@@ -1,0 +1,38 @@
+{
+  "general": [
+    {
+      "question": "What is the best time to visit Siraha?",
+      "keywords": ["best time", "visit", "season", "weather"],
+      "answer": "The best time to visit Siraha is from October to March when the weather is pleasant with temperatures between 15°C to 25°C. This period includes major festivals like Dashain, Tihar, and Chhath."
+    },
+    {
+      "question": "How can I reach Siraha?",
+      "keywords": ["reach", "how to go", "transport", "bus", "travel"],
+      "answer": "You can reach Siraha by bus from Kathmandu (8-10 hours), Janakpur (2-3 hours), or Biratnagar. The nearest airport is Janakpur Airport, about 60km away."
+    },
+    {
+      "question": "What are the famous temples in Siraha?",
+      "keywords": ["temples", "religious", "mandir", "worship"],
+      "answer": "The famous temples in Siraha include Salhesh Mandir in Lahan-12, Bhagawatisthan Durgamandir in Madar, and Kali Mandir in Siraha."
+    }
+  ],
+  "hotels": [
+    {
+      "question": "What are budget hotels in Siraha?",
+      "keywords": ["budget", "cheap", "affordable", "low price"],
+      "answer": "Budget hotels in Siraha include Hotel Batika (NPR 800-1500) and Lahan Guest House (NPR 600-1200). Both offer basic amenities like hot water and free WiFi."
+    },
+    {
+      "question": "Which hotels have free WiFi?",
+      "keywords": ["wifi", "internet", "free wifi"],
+      "answer": "Hotels with free WiFi in Siraha include Hotel Makhan Bhog, Hotel Batika, and Lahan Guest House."
+    }
+  ],
+  "food": [
+    {
+      "question": "What local food should I try?",
+      "keywords": ["food", "cuisine", "eat", "restaurant", "local"],
+      "answer": "Local specialties include Maithili thali, dal bhat, and fresh river fish. Madhesh Bhojanalaya offers authentic local cuisine at reasonable prices (NPR 200-500)."
+    }
+  ]
+}

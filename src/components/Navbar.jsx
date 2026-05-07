@@ -35,7 +35,7 @@ const Navbar = () =>
           ☰
         </button>
       </div>
-
+      
       {/* Mobile Menu */}
       {open && (
         <div className="md:hidden bg-orange-700 px-6 py-4 space-y-3">

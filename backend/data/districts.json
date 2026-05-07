@@ -1,0 +1,33 @@
+{
+  "siraha": {
+    "name": "Siraha",
+    "headquarters": "Siraha",
+    "population": "100,000+",
+    "area": "1,188 km²",
+    "language": "Maithili, Nepali",
+    "best_time_to_visit": "October to March",
+    "how_to_reach": {
+      "by_bus": "Regular buses from Kathmandu (8-10 hours), Janakpur (2-3 hours)",
+      "by_air": "Nearest airport is Janakpur Airport (60km away)",
+      "local_transport": "Tempo, rickshaw, taxi available"
+    },
+    "main_attractions": ["Salhesh Mandir", "Bhagawatisthan Durgamandir", "Lahan Bazar"],
+    "famous_for": ["Religious sites", "Agricultural products", "Maithili culture"],
+    "nearby_cities": ["Lahan", "Madar", "Golbazar"],
+    "festivals": ["Dashain", "Tihar", "Chhath", "Durga Puja"]
+  },
+  "dhanusha": {
+    "name": "Dhanusha",
+    "headquarters": "Janakpur",
+    "population": "838,084",
+    "area": "1,180 km²",
+    "best_time_to_visit": "October to March",
+    "how_to_reach": {
+      "by_bus": "Regular buses from Kathmandu (6-8 hours)",
+      "by_air": "Janakpur Airport has flights from Kathmandu"
+    },
+    "main_attractions": ["Janaki Mandir", "Ram Sita Vivah Mandap", "Dhanush Sagar"],
+    "famous_for": ["Janakpur", "Mithila culture", "Ram-Sita temple"],
+    "nearby_cities": ["Janakpur", "Bardibas", "Jaleshwar"]
+  }
+}
