@@ -1,0 +1,33 @@
+{
+  "siraha": [
+    {
+      "name": "Hotel Makhan Bhog",
+      "location": "Lahan",
+      "area": "Near Lahan Bazar",
+      "type": "Mid-range",
+      "price_range": "NPR 2000-4000",
+      "rating": 4.9,
+      "features": ["Free WiFi", "Restaurant", "Parking", "AC", "Hot Water"],
+      "contact": "9812345678",
+      "best_for": "Family, Couples"
+    },
+    {
+      "name": "Hotel Batika",
+      "location": "Siraha",
+      "type": "Budget",
+      "price_range": "NPR 800-1500",
+      "rating": 3.8,
+      "features": ["Hot Water", "TV", "Room Service", "Free Parking"],
+      "best_for": "Budget travelers"
+    },
+    {
+      "name": "Lahan Guest House",
+      "location": "Lahan",
+      "type": "Budget",
+      "price_range": "NPR 600-1200",
+      "rating": 3.5,
+      "features": ["Free WiFi", "Parking", "Hot Water"],
+      "best_for": "Backpackers, Solo travelers"
+    }
+  ]
+}

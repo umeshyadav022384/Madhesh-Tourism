@@ -1,11 +1,11 @@
-import { useState, useEffect } from 'react';
-import { getWeather } from './weatherAPI';
+import { useState, useEffect } from "react";
+import { getWeather } from "./weatherAPI";
 
 const WeatherWidget = ({ district }) => {
   const [weather, setWeather] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-  const [activeTab, setActiveTab] = useState('today'); // today, hourly, weekly
+  const [activeTab, setActiveTab] = useState("today"); // today, hourly, weekly
 
   useEffect(() => {
     const fetchWeather = async () => {
@@ -58,10 +58,11 @@ const WeatherWidget = ({ district }) => {
 
   return (
     <div className="bg-white/5 backdrop-blur-md rounded-2xl p-3 mt-4 text-white shadow-xl">
-      
       {/* Current Weather - Large Display */}
       <div className="text-center ">
-        <div className="text-5xl font-bold mb-2">{Math.round(weather.temperature)}°C</div>
+        <div className="text-5xl font-bold mb-2">
+          {Math.round(weather.temperature)}°C
+        </div>
         <div className="flex justify-center gap-4 text-sm opacity-80">
           <span>🌡️ Feels like {Math.round(weather.feelsLike)}°</span>
           <span>💧 Humidity: {weather.humidity}%</span>
@@ -90,36 +91,40 @@ const WeatherWidget = ({ district }) => {
 
       {/* Tab Navigation */}
       <div className="flex gap-2 mb-4 border-b border-white/20">
-        <button 
-          onClick={() => setActiveTab('today')}
-          className={`px-4 py-2 rounded-t-lg transition ${activeTab === 'today' ? 'bg-white/20' : 'opacity-60'}`}
+        <button
+          onClick={() => setActiveTab("today")}
+          className={`px-4 py-2 rounded-t-lg transition ${activeTab === "today" ? "bg-white/20" : "opacity-60"}`}
         >
           Today
         </button>
-        <button 
-          onClick={() => setActiveTab('hourly')}
-          className={`px-4 py-2 rounded-t-lg transition ${activeTab === 'hourly' ? 'bg-white/20' : 'opacity-60'}`}
+        <button
+          onClick={() => setActiveTab("hourly")}
+          className={`px-4 py-2 rounded-t-lg transition ${activeTab === "hourly" ? "bg-white/20" : "opacity-60"}`}
         >
           Hourly
         </button>
-        <button 
-          onClick={() => setActiveTab('weekly')}
-          className={`px-4 py-2 rounded-t-lg transition ${activeTab === 'weekly' ? 'bg-white/20' : 'opacity-60'}`}
+        <button
+          onClick={() => setActiveTab("weekly")}
+          className={`px-4 py-2 rounded-t-lg transition ${activeTab === "weekly" ? "bg-white/20" : "opacity-60"}`}
         >
           7 Days
         </button>
       </div>
 
       {/* Today Tab */}
-      {activeTab === 'today' && (
+      {activeTab === "today" && (
         <div className="space-y-3">
           <div className="flex justify-between items-center">
             <span>🌡️ Temperature</span>
-            <span className="font-semibold">{Math.round(weather.temperature)}°C</span>
+            <span className="font-semibold">
+              {Math.round(weather.temperature)}°C
+            </span>
           </div>
           <div className="flex justify-between items-center">
             <span>💧 Precipitation</span>
-            <span className="font-semibold">{weather.precipitation || 0} mm</span>
+            <span className="font-semibold">
+              {weather.precipitation || 0} mm
+            </span>
           </div>
           <div className="flex justify-between items-center">
             <span>🌬️ Wind</span>
@@ -133,32 +138,43 @@ const WeatherWidget = ({ district }) => {
       )}
 
       {/* Hourly Tab */}
-      {activeTab === 'hourly' && (
+      {activeTab === "hourly" && (
         <div className="grid grid-cols-4 gap-3">
           {hourlyForecast.map((hour, idx) => (
             <div key={idx} className="text-center bg-white/5 rounded-lg p-2">
               <div className="text-xs opacity-70">{hour.time}</div>
               <div className="text-lg font-bold">{hour.temp}°</div>
-              <div className="text-xs">{hour.condition === 'Sunny' ? '☀️' : '🌙'}</div>
+              <div className="text-xs">
+                {hour.condition === "Sunny" ? "☀️" : "🌙"}
+              </div>
             </div>
           ))}
         </div>
       )}
 
       {/* Weekly Tab */}
-      {activeTab === 'weekly' && weather.forecast && (
+      {activeTab === "weekly" && weather.forecast && (
         <div className="space-y-2">
           {weather.forecast.map((day, idx) => (
-            <div key={idx} className="flex justify-between items-center bg-white/5 rounded-lg p-2">
+            <div
+              key={idx}
+              className="flex justify-between items-center bg-white/5 rounded-lg p-2"
+            >
               <div className="w-20 text-sm">
-                {new Date(day.date).toLocaleDateString('en-US', { weekday: 'short' })}
+                {new Date(day.date).toLocaleDateString("en-US", {
+                  weekday: "short",
+                })}
               </div>
               <div className="flex-1 text-center">
                 <span className="text-sm">{day.condition}</span>
               </div>
               <div className="flex gap-2">
-                <span className="text-orange-300">{Math.round(day.maxTemp)}°</span>
-                <span className="text-blue-300">{Math.round(day.minTemp)}°</span>
+                <span className="text-orange-300">
+                  {Math.round(day.maxTemp)}°
+                </span>
+                <span className="text-blue-300">
+                  {Math.round(day.minTemp)}°
+                </span>
               </div>
             </div>
           ))}

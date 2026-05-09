@@ -16,6 +16,7 @@ import makhanbhoj from "../assets/images/sirahadistrictimages/makhanbhoj.jpg";
 import hotelbatika from "../assets/images/sirahadistrictimages/hotelbatika.jpg";
 import hotelvishal from "../assets/images/sirahadistrictimages/hotelvishal.jpg";
 import WeatherWidget from "../services/weatherwidget";
+import ChatWidget from "../components/ChatWidget";
 
 const Siraha = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -908,6 +909,7 @@ const Siraha = () => {
       >
         ↑
       </motion.button>
+      <ChatWidget/>
     </div>
   );
 };
