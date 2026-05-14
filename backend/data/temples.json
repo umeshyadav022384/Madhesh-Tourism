@@ -5,17 +5,17 @@
       "location": "Lahan-12",
       "area": "Near Lahan Bazar",
       "deity": "King Salhesh",
-      "description": "A significant historical and religious site dedicated to the legendary King Salhesh",
+      "description": "A significant historical and    religious site dedicated to the legendary King Salhesh",
       "best_time_to_visit": "Morning hours",
       "festivals": "Salhesh festival in Baisakh",
       "opening_hours": "5:00 AM - 8:00 PM"
     },
     {
-      "name": "Bhagawatisthan Durgamandir",
+      "name": " Bhagawatisthan Durgamandir ",
       "location": "Siraha Madar",
       "deity": "Goddess Durga",
       "description": "Prominent Hindu temple located in Madar, near Indian border",
-      "best_time_to_visit": "During Durga Puja",
+      "best_time_to_visit": " During Durga Puja ",
       "opening_hours": "6:00 AM - 7:00 PM"
     }
   ]

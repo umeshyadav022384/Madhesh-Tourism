@@ -1,7 +1,7 @@
 {
   "siraha": [
     {
-      "name": "Madhesh Bhojanalaya",
+      "name": " Madhesh Bhojanalaya ",
       "location": "Siraha Bazar",
       "cuisine": "Local Nepali",
       "price_range": "NPR 200-500",
@@ -21,6 +21,17 @@
       "opening_hours": "10:00 AM - 10:00 PM",
       "features": ["Chinese", "Continental", "Indian", "Nepali"],
       "must_try": "Chowmein, Momo, Paneer dishes"
+    },
+    {
+      "name": "Lahan Fast Food",
+      "location": "Lahan Bazar",
+      "cuisine": "Fast Food",
+      "price_range": "NPR 100-300",
+      "rating": 4.0,
+      "best_for": "Quick bites, Snacks",
+      "opening_hours": "11:00 AM - 9:00 PM",
+      "features": ["Fast service", "Takeaway available", "Budget friendly"],
+      "must_try": "Burgers, Fries, Spring rolls"
     },
     {
       "name": "Lahan Fast Food",

@@ -1,24 +1,24 @@
 {
   "general": [
     {
-      "question": "What is the best time to visit Siraha?",
+      "question": "What is the best time to visit?",
       "keywords": ["best time", "visit", "season", "weather"],
       "answer": "The best time to visit Siraha is from October to March when the weather is pleasant with temperatures between 15°C to 25°C. This period includes major festivals like Dashain, Tihar, and Chhath."
     },
     {
-      "question": "How can I reach Siraha?",
+      "question": "How can I reach?",
       "keywords": ["reach", "how to go", "transport", "bus", "travel"],
       "answer": "You can reach Siraha by bus from Kathmandu (8-10 hours), Janakpur (2-3 hours), or Biratnagar. The nearest airport is Janakpur Airport, about 60km away."
     },
     {
-      "question": "What are the famous temples in Siraha?",
+      "question": "What are the famous temples?",
       "keywords": ["temples", "religious", "mandir", "worship"],
       "answer": "The famous temples in Siraha include Salhesh Mandir in Lahan-12, Bhagawatisthan Durgamandir in Madar, and Kali Mandir in Siraha."
     }
   ],
   "hotels": [
     {
-      "question": "What are budget hotels in Siraha?",
+      "question": "What are budget hotels in?",
       "keywords": ["budget", "cheap", "affordable", "low price"],
       "answer": "Budget hotels in Siraha include Hotel Batika (NPR 800-1500) and Lahan Guest House (NPR 600-1200). Both offer basic amenities like hot water and free WiFi."
     },
